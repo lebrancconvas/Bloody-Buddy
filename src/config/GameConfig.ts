@@ -1,4 +1,4 @@
-import HelloWorldScene from '../scenes/HelloWorldScene';
+import {SceneList} from './SceneList';
 
 export const GameConfig: Phaser.Types.Core.GameConfig = {
 	type: Phaser.AUTO,
@@ -10,5 +10,5 @@ export const GameConfig: Phaser.Types.Core.GameConfig = {
 			gravity: { y: 200 }
 		}
 	},
-	scene: [HelloWorldScene]
+	scene: SceneList
 }
