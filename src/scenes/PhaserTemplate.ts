@@ -1,6 +1,6 @@
 import Phaser from 'phaser'
 
-export default class HelloWorldScene extends Phaser.Scene
+export default class PhaserTemplate extends Phaser.Scene
 {
 	constructor()
 	{
